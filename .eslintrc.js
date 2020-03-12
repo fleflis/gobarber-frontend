@@ -35,4 +35,11 @@ module.exports = {
       { extensions : ['.jsx', '.js']}
 		],
   },
+  settings: {
+    'import/resolver' : {
+      'babel-plugin-root-import' : {
+        rootPathSuffix: 'src'
+      }
+    }
+  }
 };
