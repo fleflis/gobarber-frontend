@@ -1,11 +1,16 @@
 import React from 'react';
+import { Router } from 'react-router-dom';
+
+import history from './services/history';
+import Routes from './routes';
 import GlobalStyles from './global/styles';
-import Index from './pages/Index';
 
 const App = () => (
   <>
     <GlobalStyles />
-    <Index />
+    <Router history={history}>
+      <Routes />
+    </Router>
   </>
 );
 
