@@ -27,7 +27,8 @@ module.exports = {
   rules: {
     'prettier/prettier' : 'error',
     'import/prefer-default-export': 'off',
-    "no-console": ["error", { allow: ["tron"] }],
+    'no-console': ["error", { allow: ["tron"] }],
+    'react/jsx-props-no-spreading': 'off',
     'react/jsx-filename-extension': [
       'warn',
       { extensions : ['.jsx', '.js']}
