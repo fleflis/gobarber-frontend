@@ -25,6 +25,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    'arrow-parens' : 'off',
     'prettier/prettier' : 'error',
     'import/prefer-default-export': 'off',
     'no-console': ["error", { allow: ["tron"] }],
